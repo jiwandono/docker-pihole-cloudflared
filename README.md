@@ -11,3 +11,5 @@ SERVER_IP=... WEB_PASSWORD=... docker-compose up -d
 ```
 
 Both `SERVER_IP` and `WEB_PASSWORD` parameters are optional, their default values are `127.0.0.1` and empty string, respectively.
+
+If you're looking for a simpler, smaller footprint DNS solution, take a look at [docker-dnsmasq-cloudflared](https://github.com/jiwandono/docker-dnsmasq-cloudflared) repository.
